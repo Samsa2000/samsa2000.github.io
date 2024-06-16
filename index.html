@@ -9,15 +9,16 @@
         <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>
     </head>
     <body>
-        
+    <img src="/img/img.png">
+       <!--
         <a-scene vr-mode-ui='enabled: false' arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false' renderer='antialias: true; alpha: true'>
             <a-assets>
                 <a-asset-item id="mask" src="/img/scene.gltf"></a-asset-item>
             </a-assets>
             <a-camera gps-new-camera='gpsMinDistance: 5'></a-camera>
             <!--a-entity material='color: gray' geometry='primitive: box' gps-new-entity-place="latitude: 55.551606; longitude: 12.928027" scale="10 10 10"></a-entity-->
-            <a-entity gltf-model="#mask" position="0 1 -2"></a-entity>
+            <!--<a-entity gltf-model="#mask" position="0 1 -2"></a-entity>
             <a-image src="/img/img.png"></a-image>
-        </a-scene>
+        </a-scene>-->
     </body>
 </html>
